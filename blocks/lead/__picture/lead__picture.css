@@ -1,8 +1,10 @@
 .lead__picture {
   margin: 0;
   padding: 0;
+  margin-left: 150px;
   max-width: 420px;
   max-height: 420px;
   position: relative;
   overflow: hidden;
+  align-items: center;
 }
