@@ -1,0 +1,21 @@
+.place__paragraf {
+  max-width: 420px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+.place__paragraf:last-of-type {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraf {
+
+  }
+}

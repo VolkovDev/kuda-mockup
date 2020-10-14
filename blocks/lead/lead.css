@@ -1,0 +1,28 @@
+.lead {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+    width: calc(100% - 186px * 2);
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+
+@media screen and (max-width: 1279px) {
+    .lead {
+      width: calc(100% - 48px * 2);
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .lead {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media screen and (max-width: 420px) {
+    .lead {
+      padding-top: 50px;
+      padding-bottom: 25px;
+      width: calc(100% - 32px);
+    }
+  }
