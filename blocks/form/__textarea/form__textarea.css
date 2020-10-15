@@ -1,0 +1,15 @@
+.form__textarea {
+    width: 416px;
+    height: 120px;
+    padding: 12px 0 0 20px;
+    box-sizing: border-box;
+    border: 0;
+  }
+@media screen and (max-width: 441px) {
+   .form__textarea {
+      width: 360px;}}
+@media screen and (max-width: 375px) {
+   .form__textarea {
+      width: 300px;}}
+
+    
