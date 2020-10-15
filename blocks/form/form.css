@@ -1,0 +1,9 @@
+.form {
+    max-width: 1505px;
+    margin: 0 auto;
+    background-color: #F2F2F2;
+  }
+  @media screen and (max-width: 1104px) {
+      .form {
+        margin: 0;}}
+      

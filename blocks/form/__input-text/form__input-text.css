@@ -1,0 +1,22 @@
+.form__inpur-text {
+    width: 416px;
+    height: 36px;
+    padding: 12px 0 12px 20px;
+    box-sizing: border-box;
+    border:0;
+    margin-bottom: 22px;
+  }
+
+  ::-webkit-input-placeholder {color: black;}
+  ::-moz-placeholder          {color:black;}
+  :-moz-placeholder           {color:black;}
+  :-ms-input-placeholder      {color:black;}
+@media screen and (max-width: 441px) {
+    .form__inpur-text {
+      width: 360px;}}
+@media screen and (max-width: 375px) {
+    .form__inpur-text {
+      width: 300px;}}
+        
+
+      

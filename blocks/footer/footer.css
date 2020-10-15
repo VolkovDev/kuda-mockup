@@ -1,0 +1,15 @@
+.footer {
+    width: 100%;
+    height: 728px;
+    background-color: #FECDA7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+@media screen and (max-width: 1104px) {
+   .footer {
+      height: 600px;}}
+@media screen and (max-width: 605px) {
+   .footer {
+      height: 400px;}}
+        

@@ -1,0 +1,16 @@
+.form__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 254px;
+    margin-left: 80px;
+}
+
+@media screen and (max-width: 1243px) {
+    .form__content {
+      margin-right: 200px;
+      margin-left: 60px;}}
+@media screen and (max-width: 1104px) {
+    .form__content {
+      margin-right: 0;
+      margin-left: 0;}}

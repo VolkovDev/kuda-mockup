@@ -25,3 +25,30 @@
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__text/place__text.css);
 @import url(../blocks/place/__paragraf/place__paragraf.css);
+
+/* Блок intro */
+@import url(./../blocks/intro/intro.css);
+@import url(./../blocks/intro/__subtitle/intro__subtitle.css);
+@import url(./../blocks/intro/__title/intro__title.css);
+@import url(./../blocks/intro/__list/intro__list.css);
+@import url(./../blocks/intro/__list-title/intro__list-title.css);
+@import url(./../blocks/intro/__list-subtitle/intro__list-subtitle.css);
+
+/* Блок form */
+@import url(./../blocks/form/form.css);
+@import url(./../blocks/form/__conteiner/form__conteiner.css);
+@import url(./../blocks/form/__content/form__content.css);
+@import url(./../blocks/form/__title/form__title.css);
+@import url(./../blocks/form/__fieldset/form__fieldset.css);
+@import url(./../blocks/form/__input-text/form__input-text.css);
+@import url(./../blocks/form/__textarea/form__textarea.css);
+@import url(./../blocks/form/__fieldset-button/form__fieldset-button.css);
+@import url(./../blocks/form/__button/form__button.css);
+@import url(./../blocks/form/__photo/form__photo.css);
+
+/* Блок video */
+@import url(./../blocks/video/__iframe/video__iframe.css);
+
+/* Блок footer */
+@import url(./../blocks/footer/footer.css);
+@import url(./../blocks/footer/__title/footer__title.css);
