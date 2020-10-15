@@ -1,0 +1,8 @@
+.place__transform {}
+
+@media screen and (max-width: 767px) {
+  .place__transform {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
