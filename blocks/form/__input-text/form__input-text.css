@@ -6,6 +6,11 @@
     border:0;
     margin-bottom: 22px;
   }
+
+  ::-webkit-input-placeholder {color: black;}
+  ::-moz-placeholder          {color:black;}
+  :-moz-placeholder           {color:black;}
+  :-ms-input-placeholder      {color:black;}
 @media screen and (max-width: 441px) {
     .form__inpur-text {
       width: 360px;}}
