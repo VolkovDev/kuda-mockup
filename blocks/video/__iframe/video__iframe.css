@@ -14,8 +14,10 @@
 
   @media screen and (max-width: 1104px) {
    .video__iframe {
+       width: 1104px;
        height: 650px;}}
  @media screen and (max-width: 605px) {
   .video__iframe {
+      width: 605px;
        height: 350px;}}
            
