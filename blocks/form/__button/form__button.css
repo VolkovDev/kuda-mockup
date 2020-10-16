@@ -1,0 +1,16 @@
+.form__button {
+    float: right;
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    background-color: black;
+    color: #BFBFBF;
+    padding: 11px 9px;
+    transition: 0.25s linear;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+.form__button:hover {
+    box-shadow:  0 0 8px black;
+}

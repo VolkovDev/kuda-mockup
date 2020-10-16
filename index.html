@@ -14,23 +14,24 @@
 <body>
   <div class="page">
     <header class="header">
-      <ul class="header__list">
-        <li class="header__list-item">
-          <a href="#" class="header__link">Мечты</a>
-        </li>
-        <li class="header__list-item">
-          <a href="#" class="header__link">Ожидания</a>
-        </li>
-        <li class="header__list-item">
-          <a href="#" class="header__link">Реальность</a>
-        </li>
-      </ul>
-      <span><a href="#" class="header__link">Пожаловаться</a></span>
-
+      <nav class="header__menu">
+        <ul class="header__list">
+          <li class="header__list-item">
+            <a href="#" class="header__link">Мечты</a>
+          </li>
+          <li class="header__list-item">
+            <a href="#" class="header__link">Ожидания</a>
+          </li>
+          <li class="header__list-item">
+            <a href="#" class="header__link">Реальность</a>
+          </li>
+        </ul>
+        <span><a href="#" class="header__link">Пожаловаться</a></span>
+      </nav>
     </header>
     <main class="content">
       <section class="lead">
-        <article>
+        <article class="lead__text">
           <p class="lead__subtitle">куда я поеду</p>
           <h1 class="lead__title">
             Куда я поеду сразу, как можно будет куда-то поехать
@@ -38,6 +39,7 @@
         </article>
         <figure class="lead__picture">
           <img src="./images/intro-image.jpeg" alt="вид из самолета на солнечные облака" class="lead__image" />
+        </figure>
       </section>
       <section class="places">
         <article class="place">
@@ -55,7 +57,7 @@
             </div>
           </div>
         </article>
-        <article class="place">
+        <article class="place place__transform">
           <div class="place__text">
             <h2 class="place__title">Поеду в горы</h2>
             <div class="place__paragrafs">
@@ -91,11 +93,58 @@
       </section>
 
       <!-- Паша это твои секции -->
-      <section class="intro"></section>
-      <section class="form"></section>
-      <section class="video"></section>
+      <section class="intro">
+        <div class="intro__content">
+          <article class="intro__text">
+            <p class="intro__subtitle">Люди</p>
+            <h2 class="intro__title">Что говорят и говорили люди о путешествиях</h2>
+          </article>
+            <ul class="intro__list">
+                <li class="intro__item">
+                    <h3 class="intro__list-title">Иван&nbsp;&nbsp;Бунин</h3>
+                    <p class="intro__list-subtitle">Человека делают счастливым три вещи: любовь, интересная работа и возможность путешествовать.</p>
+                </li>
+                <li class="intro__item">
+                    <h3 class="intro__list-title">Альбер&nbsp;&nbsp;Камю</h3>
+                    <p class="intro__list-subtitle">Путешествие как самая великая и серьезная наука помогает нам вновь обрести себя.</p>
+                </li>
+                <li class="intro__item">
+                    <h3 class="intro__list-title">Норвежская&nbsp;&nbsp;Пословица</h3>
+                    <p class="intro__list-subtitle">Лишь тот, кто странствует, открывает новые пути.</p>
+                </li>
+                <li class="intro__item">
+                    <h3 class="intro__list-title">Мария&nbsp;&nbsp;Захарова</h3>
+                    <p class="intro__list-subtitle">В принципе, зарубежная поездка - это серьезнейшее, ответственнейшее и очень рискованное предприятие.</p>
+                </li>
+            </ul>
+        </div>
+      </section>
+      <section class="form">
+        <div class="form__conteiner">
+          <div class="form__content">
+            <h2 class="form__title">Так куда же я поеду?</h2>
+            <form>
+              <fieldset class="form__fieldset">
+                <input class="form__input-text" type="text" name="text" placeholder="Я поеду ...">
+                <textarea class="form__textarea" placeholder="Потому что я ..." name="text"></textarea>
+              </fieldset>
+              <fieldset class="form__fieldset-button">
+                <input class="form__button" type="submit" value="Поехали уже куда-нибудь!" name="button">
+              </fieldset>
+            </form>
+          </div>
+          <img src="images/airport-schedule.jpg" class="form__photo" alt="Табло аэропорта">
+        </div>
+      </section>
+      <section class="video">
+        <iframe class="video__iframe" src="https://www.youtube.com/embed/JGNiMutYBm4"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <p class="footer__title">&#169;&nbsp;2O2O</p>
+    </footer>
   </div>
 </body>
 

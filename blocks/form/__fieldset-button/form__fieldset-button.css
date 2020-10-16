@@ -1,0 +1,12 @@
+.form__fieldset-button {
+    margin: 22px 0 0 0;
+    padding: 0;
+    max-width: 416px;
+    box-sizing: border-box;
+    border: 0;
+  }
+
+@media screen and (max-width: 1104px) {
+    .form__fieldset-button {
+       margin: 22px 0 20px 0;}}
+    

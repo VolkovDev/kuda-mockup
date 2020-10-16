@@ -1,0 +1,20 @@
+.intro {
+    min-height: 716px;
+    display: flex;
+    align-items: center;
+    width: calc(100% - 2 * 82px);
+    margin: 0 auto;
+  }
+
+  @media screen and (max-width: 1104px) {
+   .intro {
+      justify-content: center;}}
+@media screen and (max-width: 605px) {
+   .intro {
+      width: calc(100% - 2 * 52px);}}
+@media screen and (max-width: 531px) {
+   .intro {
+      width: calc(100% - 2 * 32px);}}
+@media screen and (max-width: 450px) {
+   .intro {
+      width: calc(100% - 2 * 18px);}}

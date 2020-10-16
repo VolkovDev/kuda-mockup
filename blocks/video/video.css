@@ -1,0 +1,50 @@
+.video {
+    position: relative;
+    z-index: 3;
+    cursor: pointer;
+    
+}
+
+.video::before {
+    content: "";
+    max-width: 100%;
+    height: 100%;
+    z-index: 3;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    background-image: url(./../../images/video.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.video::after {
+    content: "А пока что - сидим дома!";
+    z-index: 5;
+    position: absolute;
+    top: 152px;
+    left: 81px;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+.video:hover:before {
+    display: none;
+}
+
+.video:hover:after {
+    display: none;
+}
+    
+@media screen and (max-width: 605px) {
+    .video::after {
+        top: 34px;
+        left: 26px;
+        font-size: 34px;
+        color: white;
+        font-weight: bold;
+    }
+}
