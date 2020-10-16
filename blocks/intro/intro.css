@@ -1,5 +1,6 @@
 .intro {
     min-height: 716px;
+    padding-top: 10px;
     display: flex;
     align-items: center;
     width: calc(100% - 2 * 82px);
