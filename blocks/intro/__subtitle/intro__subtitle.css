@@ -1,9 +1,9 @@
 .intro__subtitle {
     text-transform: uppercase;
-    padding-bottom: 45px;
+    padding-bottom: 34px;
     font-size: 13px;
-    letter-spacing: -7%;
     color: #FECDA7;
+    margin: 36px 0 0 0;
   }
 
 @media screen and (max-width: 605px) {
