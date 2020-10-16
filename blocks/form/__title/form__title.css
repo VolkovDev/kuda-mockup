@@ -1,8 +1,9 @@
 .form__title {
     font-size: 36px;
     font-weight: bold;
-    padding-bottom: 156px;
-    margin: 0;
+    padding-bottom: 151px;
+    margin: 14px 0 0 0;
+    letter-spacing: 1px;
 }
 @media screen and (max-width: 1243px) {
     .form__title {
