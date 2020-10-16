@@ -1,9 +1,8 @@
 .form__content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin-right: 254px;
-    margin-left: 80px;
+    margin: auto 254px auto 80px;
+    height: 443px;
 }
 
 @media screen and (max-width: 1243px) {
