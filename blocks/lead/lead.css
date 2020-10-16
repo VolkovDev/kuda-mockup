@@ -1,7 +1,7 @@
 .lead {
   display: grid;
   grid-template-columns: 1fr 1fr;
-    width: calc(100% - 186px * 2);
+    width: calc(100% - 160px);
     margin: 0 auto;
     padding-top: 100px;
     padding-bottom: 150px;

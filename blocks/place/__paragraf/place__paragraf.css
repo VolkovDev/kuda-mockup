@@ -5,17 +5,11 @@
   font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 11px;
-  line-height: 1.2;
+  font-size: 15px;
+  line-height: 1.5;
   margin-bottom: 30px;
 }
 
 .place__paragraf:last-of-type {
   margin-bottom: 0;
-}
-
-@media screen and (max-width: 768px) {
-  .place__paragraf {
-
-  }
 }

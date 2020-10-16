@@ -1,7 +1,5 @@
 .header {
-  width: calc(100% - 80px);
-  display: flex;
-  justify-content: space-between;
+  width: calc(100% - 160px);
   margin: 0 auto;
   padding: 60px 0 0;
   color: #000;
@@ -11,14 +9,11 @@
 @media screen and (max-width: 768px) {
   .header {
     width: calc(100% - 48px);
-    flex-direction: column;
-    justify-content: center;
   }
 }
 
 @media screen and (max-width: 420px) {
   .header {
     width: calc(100% - 16px);
-    padding: 16px 0 0;
   }
 }
