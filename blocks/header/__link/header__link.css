@@ -7,7 +7,7 @@
   color: #000;
   font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 900;
   cursor: pointer;
   transition: opacity .42s, transform .42s ease;
 }
